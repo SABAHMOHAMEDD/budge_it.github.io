@@ -1,0 +1,115 @@
+:root {
+  --primary: #6A9C89;
+  --light: #f9f9f9;
+  --dark: #333;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--light);
+  color: var(--dark);
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem 2rem;
+  background-color: white;
+  position: relative;
+}
+
+.hero .highlight {
+  color: var(--primary);
+  text-decoration: underline wavy var(--primary);
+}
+
+.subtext {
+  font-size: 1.2rem;
+  margin: 1rem 0 2rem;
+}
+
+.email-signup {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.email-signup input {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 250px;
+}
+
+.email-signup button {
+  background-color: var(--primary);
+  border: none;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.phone-img {
+  margin-top: 3rem;
+  width: 300px;
+}
+
+.features {
+  background: #fff;
+  padding: 4rem 2rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.feature-box {
+  background: #fdeeea;
+  padding: 2rem;
+  border-radius: 16px;
+  width: 300px;
+}
+
+.feature-number {
+  font-weight: 800;
+  font-size: 1.8rem;
+  color: var(--primary);
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.how-it-works {
+  background-color: #eafaf3;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.how-it-works h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.step {
+  max-width: 300px;
+}
